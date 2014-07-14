@@ -25,3 +25,7 @@ resolvers ++= Seq(
   Resolver.typesafeRepo("releases"),
   Resolver.typesafeIvyRepo("releases")
 )
+
+ScoverageSbtPlugin.instrumentSettings
+
+CoverallsPlugin.coverallsSettings
