@@ -1,6 +1,4 @@
-scalaVersion := "2.11.1"
-
-crossScalaVersions := Seq("2.10.4", "2.11.1")
+scalaVersion := "2.10.4"
 
 scalacOptions ++= Seq(
   "-target:jvm-1.7",
