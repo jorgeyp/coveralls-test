@@ -1,7 +1,7 @@
 language: scala
 scala:
   - 2.10.4
-script: "sbt clean scoverage:test"
+script: "sbt clean scoverage:test coveralls"
 jdk:
   - oraclejdk7
 notifications:
